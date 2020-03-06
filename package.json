@@ -1,0 +1,25 @@
+{
+  "name": "saboroso",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "startDev": "nodemon app.js",
+    "startServerDev": "set DEBUG=saboroso:* & npm run startDev"
+  },
+  "dependencies": {
+    "connect-redis": "3.3.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^4.15.2",
+    "express-session": "1.15.6",
+    "formidable": "^1.2.2",
+    "http-errors": "~1.6.3",
+    "moment": "^2.22.2",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.1.1"
+  }
+}
